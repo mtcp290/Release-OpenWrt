@@ -14,3 +14,4 @@ sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_gener
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default  #使用源码自带ShadowSocksR Plus+出国软件
 git clone https://github.com/kenzok8/openwrt-packages.git package/kenzo
 src-git small8 https://github.com/kenzok8/small-package
+git clone https://github.com/kenzok8/luci-theme-ifit.git package/lean/luci-theme-ifit
